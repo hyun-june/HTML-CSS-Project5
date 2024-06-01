@@ -1,0 +1,176 @@
+body{
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #1ed760;
+}
+
+/* nav css */
+nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item{
+    padding: 28px 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+/* main css */
+main{
+    height: 969px;
+    background-color: #2941ab;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-head{
+    font-size: 156px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1ed760;
+    font-weight: 900;
+    position: relative;
+    left: 1.5em;
+    line-height: 166px;
+    padding-bottom: 40px;
+}
+
+.headline{
+    position: relative;
+    left: -2.5em;
+}
+
+.headline-sub{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #1ed760;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-area{
+    display: flex;
+    justify-content: center;
+}
+
+.main-btn{
+    font-family: Arial;
+    font-size: inherit;
+    background-color: #1ed760;
+    color: #2941ab;
+    font-weight: 700;
+    padding: 14px 32px;
+    border-radius: 500px;
+    border: none;
+}
+.main-btn:hover{
+transform: scale(1.1);
+}
+
+/* footer css */
+footer{
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+} 
+
+.footer-container{
+    width: 1170px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+
+.footer-left{
+    display: flex;
+    width: 60%;
+}
+
+.sub-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+
+.footer-title{
+    font-size: 16px;
+    font-family: Arial;
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.footer-item{
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.footer-right{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-box{
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 24px;
+    color: white;
+}
+
+.icon:hover{
+    color: #1ed760; 
+}
+
+.footer-line{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: #919496;
+}
+
+.footer-line1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #919496;
+    margin-top: 12px;
+}
+
+.line-item{
+    margin-right: 24px;
+    color: #919496;
+    font-family: Arial;
+}
