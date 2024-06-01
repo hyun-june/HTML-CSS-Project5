@@ -27,7 +27,7 @@ nav{
 }
 
 /* main css */
-main{
+main {
     height: 969px;
     background-color: #2941ab;
     background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
@@ -36,6 +36,19 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: moveBackground 10s infinite linear;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 46% 4%;
+    }
+    50% {
+        background-position: 50% 10%;
+    }
+    100% {
+        background-position: 46% 4%;
+    }
 }
 
 .main-head{
